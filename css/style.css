@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.lcw {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffa500;
+  box-shadow: #6a6a6a 0px 0px 10px 4px;
+}
+.header .header__logo img {
+  max-width: 50px;
+}
+.header .header__items ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row-reverse;
+}
+.header .header__items ul li {
+  padding: 20px 40px;
+}
+.header .header__items ul li a {
+  text-decoration: none;
+  color: black;
+}
+.header .header__items ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.about {
+  padding: 30px 0;
+}
+.about .about__title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.about .about__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about .about__container p {
+  padding: 5px 0;
+}
+.about .about__container hr {
+  height: 1px;
+  background-color: #6a6a6a;
+}
+.about .about__container .about__button {
+  text-align: center;
+  padding: 30px 0;
+}
+.about .about__container .about__button .about__button-btn {
+  padding: 0 20px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ffa500;
+}
+.about .about__container .about__button .about__button-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.about .about__container .about__button .about__button-btn:hover a {
+  color: #000;
+  transition: 1s;
+}
+.biography {
+  background-color: #ffa500;
+  padding: 30px 0;
+  box-shadow: #6a6a6a 0 0 10px 5px;
+}
+.biography .biography__title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.biography .biography__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.biography .biography__container .biography__text {
+  max-width: 500px;
+}
+.biography .biography__container .biography__text p {
+  padding: 10px 0;
+}
+.biography .biography__container .biography__text .biography__button {
+  text-align: center;
+  padding: 30px 0;
+}
+.biography .biography__container .biography__text .biography__button .biography__button-btn {
+  padding: 0 20px;
+  min-height: 30px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.biography .biography__container .biography__text .biography__button .biography__button-btn a {
+  text-decoration: none;
+  color: #000;
+}
+.biography .biography__container .biography__text .biography__button .biography__button-btn:hover a {
+  transition: 1s;
+  color: #ffa500;
+}
+.biography .biography__img img {
+  min-width: 350px;
+}
+.quote {
+  padding: 50px 0;
+}
+.quote hr {
+  height: 1px;
+  background-color: #6a6a6a;
+}
+.quote .quote__text {
+  padding: 30px 0;
+}
+.quote .quote__author {
+  text-align: right;
+}
+.book {
+  padding: 30px 0;
+  background-color: #ffa500;
+  box-shadow: #6a6a6a 0 0 10px 5px;
+}
+.book .book__title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.book .book__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.book .book__container .book__content .book__text p {
+  padding: 10px 0;
+}
+.book .book__container .book__content .book__button {
+  text-align: center;
+  padding: 30px 0;
+}
+.book .book__container .book__content .book__button .book__button-btn {
+  padding: 0 20px;
+  min-height: 30px;
+  border: 0;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.book .book__container .book__content .book__button .book__button-btn a {
+  text-decoration: none;
+  color: #000;
+}
+.book .book__container .book__content .book__button .book__button-btn:hover a {
+  transition: 1s;
+  color: #ffa500;
+}
+.order {
+  padding: 30px 0;
+}
+.order .order__title {
+  padding-top: 30px;
+  text-align: center;
+}
+.order .order__container .order__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.order .order__container .order__form p {
+  padding: 10px 0;
+}
+.order .order__container .order__form input {
+  background-color: #ffa500;
+  border: 0;
+  border-radius: 20px;
+  min-height: 30px;
+  padding: 0 20px;
+}
+.order .order__container .order__form input:focus-visible {
+  border: 0;
+}
+.order .order__container .order__button {
+  text-align: center;
+  padding: 30px 0;
+}
+.order .order__container .order__button .order__button-btn {
+  padding: 0 20px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ffa500;
+}
+.order .order__container .order__button .order__button-btn a {
+  text-decoration: none;
+  color: #000;
+}
+.order .order__container .order__button .order__button-btn:hover a {
+  color: #fff;
+  transition: 1s;
+}
+.footer {
+  background-color: #ffa500;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  box-shadow: #6a6a6a 0 9px 10px 10px;
+}
+.footer .footer__items ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row-reverse;
+}
+.footer .footer__items ul li {
+  padding: 20px 40px;
+}
+.footer .footer__items ul li a {
+  text-decoration: none;
+  color: black;
+}
+.footer .footer__items ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.bio {
+  padding: 30px 0;
+}
+.bio .bio__title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.bio .bio__text p {
+  padding: 10px;
+}
+.bio__buttons {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.bio__buttons .bio__btn-head {
+  padding: 0 20px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ffa500;
+}
+.bio__buttons .bio__btn-head a {
+  text-decoration: none;
+  color: #fff;
+}
+.bio__buttons .bio__btn-head:hover a {
+  color: #000;
+  transition: 1s;
+}
+.bio__buttons .bio__btn-gallery {
+  padding: 0 20px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ffa500;
+}
+.bio__buttons .bio__btn-gallery a {
+  text-decoration: none;
+  color: #fff;
+}
+.bio__buttons .bio__btn-gallery:hover a {
+  color: #000;
+  transition: 1s;
+}
+.gallery .gallery__images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.gallery .gallery__images .gallery__img {
+  margin: 0 10px;
+}
+.gallery .gallery__images .gallery__img img {
+  max-width: 250px;
+  min-width: 250px;
+}
+.gallery .gallery__images .gallery__img img:hover {
+  scale: 1.3;
+  transition: 1s;
+}
+.gallery__buttons {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.gallery__buttons .gallery__btn-head {
+  padding: 0 20px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ffa500;
+}
+.gallery__buttons .gallery__btn-head a {
+  text-decoration: none;
+  color: #fff;
+}
+.gallery__buttons .gallery__btn-head:hover a {
+  color: #000;
+  transition: 1s;
+}
+.gallery__buttons .gallery__btn-bio {
+  padding: 0 20px;
+  min-height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #ffa500;
+}
+.gallery__buttons .gallery__btn-bio a {
+  text-decoration: none;
+  color: #fff;
+}
+.gallery__buttons .gallery__btn-bio:hover a {
+  color: #000;
+  transition: 1s;
+}
